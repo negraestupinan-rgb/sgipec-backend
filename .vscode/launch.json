@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SgipecApplication",
+            "request": "launch",
+            "mainClass": "com.sgipec.SgipecApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch SgipecApplication",
+            "request": "launch",
+            "mainClass": "com.sgipec.SgipecApplication",
+            "projectName": "backend"
+        }
+    ]
+}

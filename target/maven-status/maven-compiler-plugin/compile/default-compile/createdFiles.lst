@@ -1,0 +1,6 @@
+com\sgipec\service\AuthService.class
+com\sgipec\model\Proveedor.class
+com\sgipec\model\User.class
+com\sgipec\SgipecApplication.class
+com\sgipec\Controller\AuthController.class
+com\sgipec\Controller\ProductoController.class
