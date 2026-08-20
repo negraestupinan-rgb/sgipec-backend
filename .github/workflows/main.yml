@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -23,4 +22,5 @@ jobs:
           cache: maven
 
       - name: Compilar proyecto con Maven
+        run: mvn clean compile
         run: mvn clean compile
