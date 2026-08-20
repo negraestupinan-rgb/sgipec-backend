@@ -2,9 +2,9 @@ name: SGIPEC Backend CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "principal" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "principal" ]
 
 jobs:
   build:
@@ -16,11 +16,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Configurar Java 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: '17'
           distribution: 'temurin'
+          cache: maven
 
       - name: Compilar proyecto con Maven
         run: mvn clean compile
-        working-directory: ./backend
